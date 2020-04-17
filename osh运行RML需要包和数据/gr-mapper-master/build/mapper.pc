@@ -1,0 +1,12 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: es
+Description: GNURadio Mapper Interface
+Requires:
+Version: 
+Libs: -L${libdir}   -Lgnuradio-mapper
+Cflags:  -I${includedir}
+
