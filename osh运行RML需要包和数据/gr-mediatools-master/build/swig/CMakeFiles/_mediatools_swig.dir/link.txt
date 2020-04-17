@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -O3 -DNDEBUG  -shared  -o _mediatools_swig.so CMakeFiles/_mediatools_swig.dir/mediatools_swigPYTHON_wrap.cxx.o -Wl,-rpath,/home/tujiaqi/Desktop/grc/gr-mediatools-master/build/lib: -lpython2.7 ../lib/libgnuradio-mediatools.so -lgnuradio-runtime -lgnuradio-pmt -llog4cpp -lgnuradio-runtime -lgnuradio-pmt -llog4cpp -lavcodec -lavformat -lavutil 

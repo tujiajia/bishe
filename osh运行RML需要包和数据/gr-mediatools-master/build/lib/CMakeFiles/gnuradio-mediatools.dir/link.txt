@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -O3 -DNDEBUG  -shared -Wl,-soname,libgnuradio-mediatools.so -o libgnuradio-mediatools.so CMakeFiles/gnuradio-mediatools.dir/mediatools_audiosource_s.cc.o CMakeFiles/gnuradio-mediatools.dir/mediatools_audiosource_impl.cc.o -lgnuradio-runtime -lgnuradio-pmt -llog4cpp -lgnuradio-runtime -lgnuradio-pmt -llog4cpp -lavcodec -lavformat -lavutil 

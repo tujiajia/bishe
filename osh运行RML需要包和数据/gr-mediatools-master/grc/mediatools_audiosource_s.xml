@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<block>
+  <name>audiosource_s</name>
+  <key>mediatools_audiosource_s</key>
+  <category>mediatools</category>
+  <import>import mediatools</import>
+  <make>mediatools.audiosource_s($args)</make>
+  <param>
+    <name>Audio File List</name>
+    <key>args</key>
+    <value>["/tmp/foo.mp3"]</value>
+    <type>raw</type>
+  </param>
+
+  <sink>
+    <name>enqueue</name>
+    <type>message</type>
+    <optional>1</optional>
+  </sink>
+  
+  <sink>
+    <name>skip</name>
+    <type>message</type>
+    <optional>1</optional>
+  </sink>
+
+  <source>
+    <name>out</name>
+    <type>short</type>
+  </source>
+
+  <source>
+    <name>change</name>
+    <type>message</type>
+    <optional>1</optional>
+  </source>
+
+  <doc>
+  </doc>
+</block>

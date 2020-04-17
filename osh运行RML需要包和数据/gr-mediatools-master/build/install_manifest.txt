@@ -1,0 +1,13 @@
+/usr/local/include/mediatools/mediatools_api.h
+/usr/local/include/mediatools/mediatools_audiosource_s.h
+/usr/local/lib/libgnuradio-mediatools.so
+/usr/local/lib/python2.7/dist-packages/mediatools/_mediatools_swig.so
+/usr/local/lib/python2.7/dist-packages/mediatools/mediatools_swig.py
+/usr/local/lib/python2.7/dist-packages/mediatools/mediatools_swig.pyc
+/usr/local/lib/python2.7/dist-packages/mediatools/mediatools_swig.pyo
+/usr/local/include/mediatools/swig/mediatools_swig.i
+/usr/local/include/mediatools/swig/mediatools_swig_doc.i
+/usr/local/lib/python2.7/dist-packages/mediatools/__init__.py
+/usr/local/lib/python2.7/dist-packages/mediatools/__init__.pyc
+/usr/local/lib/python2.7/dist-packages/mediatools/__init__.pyo
+/usr/local/share/gnuradio/grc/blocks/mediatools_audiosource_s.xml
